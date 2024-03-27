@@ -25,7 +25,7 @@ export const useStage = (player, resetPlayer) => {
           row.map(cell => (cell[1] === 'clear' ? [0, 'clear'] : cell))
         );
   
-        // Then draw the tetromino
+        // drawing the tetromino
         if (player) { // Check if player is defined
           player.tetromino.forEach((row, y) => {
             row.forEach((value, x) => {
