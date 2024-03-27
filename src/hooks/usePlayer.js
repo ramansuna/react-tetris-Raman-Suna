@@ -11,7 +11,7 @@ export const usePlayer = () => {
   });
 
   function rotate(matrix, dir) {
-    // Make the rows to become cols (transpose)
+    // Make the rows to become columns --> Matrix
     const mtrx = matrix.map((_, index) => matrix.map(column => column[index]));
     // Reverse each row to get a rotaded matrix
     if (dir > 0) return mtrx.map(row => row.reverse());
