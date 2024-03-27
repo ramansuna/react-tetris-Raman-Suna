@@ -1,4 +1,5 @@
 # Tetris Game Demo
+![Tetris Game Demo](https://github.com/ramansuna/react-tetris-Raman-Suna/assets/120169573/faadae54-a923-44fe-b9d7-3ea297537a66)
 
 
 # Getting Started with Create React App
